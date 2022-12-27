@@ -1,3 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap');
+
+/* CUSTOM PROPERTIES */
+:root {
+    /* COLORS */
+    --primary: #0d88a5;
+    --secondary: #02c767;
+    --light: #fff;
+    --dark: #1e1e1e;
+    --grey: #3b3b3b;
+    --lightGrey: #e1e1e1;
+
+    /* SPACING */
+    --sectionSpacing: 5rem;
+    --textSpacing: 2.5rem;
+
+    /* FONTS */
+    --primaryFont: 'Roboto', sans-serif;
+    --secondaryFont: 'Lato', sans-serif;
+    --h1Size: 4.4rem;
+    --h2Size: 3.6rem;
+    --h3Size: 2.8rem;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+*,
+:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
 body {
-    background: #fff;
+    font-family: var(--primaryFont);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background: var(--light);
+}
+
+/* GLOBAL STYLES */
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondaryFont);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: var(--textSpacing) 0;
+}
+
+h1 {
+    font-size: var(--h1Size);
+}
+
+h2 {
+    font-size: var(--h2Size);
+}
+
+h3 {
+    font-size: var(--h3Size);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* UTILITIES */
+.text-center {
+    text-align: center;
 }

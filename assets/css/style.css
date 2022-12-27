@@ -3,8 +3,8 @@
 /* CUSTOM PROPERTIES */
 :root {
     /* COLORS */
-    --primary: #0d88a5;
-    --secondary: #02c767;
+    --primary: #1073BA;
+    --secondary: #00DA55;
     --light: #fff;
     --dark: #1e1e1e;
     --grey: #3b3b3b;
@@ -50,12 +50,19 @@ body {
     margin: 0 auto;
 }
 
+.primary-gradient {
+    background: linear-gradient(to right, var(--primary) 0%, var(--secondary) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; /* Prefix for some browser */
+}
+
 h1,
 h2,
 h3 {
     font-family: var(--secondaryFont);
     font-weight: 900;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: var(--textSpacing) 0;
 }
 
@@ -74,9 +81,74 @@ h3 {
 img {
     max-width: 100%;
     display: block;
+    height: auto;
 }
 
 /* UTILITIES */
 .text-center {
     text-align: center;
+}
+
+/* HEADER */
+.header {
+    background: var(--dark);
+    color: var(--light);
+    padding: calc(var(--sectionSpacing) * 3) 0;
+}
+
+.header-image {
+    margin: auto 0;
+}
+
+.header-text {
+    text-align: center;
+    padding-top: var(--sectionSpacing);
+}
+
+.header-text p {
+    margin: 0;
+}
+
+.header-tag {
+    font-weight: 900;
+    font-size: 2.4rem;
+    margin: 2rem 0
+}
+
+.header-title {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.price-tag span {
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: calc( var(--sectionSpacing) * 3 ) 0;
+    }
+
+    .header-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-text {
+        padding-top: 0;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header-tag {
+        font-size: 3rem;
+    }
+
+    .header-title {
+        font-size: 10rem;
+        line-height: 1;
+    }
 }

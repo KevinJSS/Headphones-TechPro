@@ -152,3 +152,35 @@ img {
         line-height: 1;
     }
 }
+
+/* PRODUCT FEATURES */
+.product-features {
+    padding: var(--sectionSpacing) 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: var(--textSpacing);
+}
+
+.feature:last-of-type {
+    margin-bottom: 0;
+}
+
+.feature img {
+    width: 5rem;
+    margin: 0 auto;
+}
+
+.feature h3 {
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+@media (min-width: 768px) {
+    .product-features {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }  
+}

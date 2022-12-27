@@ -182,5 +182,19 @@ img {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
-    }  
+    } 
+    
+    .feature {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .product-features {
+        gap: 4rem;
+    }
+
+    .feature:nth-child(1) span {
+        display: block;
+    }
 }

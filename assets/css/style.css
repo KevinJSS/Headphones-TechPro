@@ -412,3 +412,22 @@ img {
 .model-x {
     background-image: url(../img/modelo-x.svg);
 }
+
+/* NEWSLETTER SECTION */
+
+
+/* FOOTER */
+.site-footer {
+    padding: var(--textSpacing) 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--primary);
+    font-family: var(--secondaryFont);
+}
+
+@media (min-width: 768px) {
+    .site-footer {
+        padding: var(--sectionSpacing) 0;
+        font-size: 2rem;
+    }
+}

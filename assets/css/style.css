@@ -414,20 +414,109 @@ img {
 }
 
 /* NEWSLETTER SECTION */
+.newsletter {
+    margin-top: var(--sectionSpacing);
+    background-image: linear-gradient(to bottom, transparent 50%, var(--light) 0%), url(../img/newsletter.jpg);
+    background-position: top right;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%, 80rem;
+}
+
+.newsletter-content {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 4rem;
+}
+
+.newsletter-form {
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .newsletter {
+        background-image: linear-gradient(to right, transparent 50%, var(--light) 0%), url(../img/newsletter.jpg);
+        background-position: center, -21rem -1rem;
+        background-size: 100%, 110rem;
+        padding: calc(var(--sectionSpacing) * 2) 0;
+    }
+
+    .newsletter-content {
+        grid-template-rows: unset;
+        row-gap: unset;
+        
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 7rem;
+    }
+
+    .newsletter-form {
+        grid-column: 2 / 3;
+    }
+}
+
+@media (min-width: 2600px) {
+    .newsletter {
+        background-size: 100%, 160rem;
+    }
+}
+
+.newsletter-form h2 {
+    font-size: 3.6rem;
+}
+
+.newsletter-form p {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem ;
+    line-height: 2;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.form input {
+    margin: 0;
+    padding: 2rem;
+}
+
+.form input[type="email"] {
+    border: 2px solid var(--primary);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.form input[type="email"]:is(:focus) {
+    outline: none;
+    border-color: var(--primary);
+}
+
+.form input[type="submit"] {
+    border: none;
+    background-color: var(--primary);
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--light);
+    font-size: 2rem;
+
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
 
 
 /* FOOTER */
 .site-footer {
-    padding: var(--textSpacing) 0;
+    padding: calc(var(--textSpacing) * 1.5) 0;
     text-transform: uppercase;
     font-size: 1.5rem;
     color: var(--primary);
     font-family: var(--secondaryFont);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .site-footer {
-        padding: var(--sectionSpacing) 0;
         font-size: 2rem;
     }
 }

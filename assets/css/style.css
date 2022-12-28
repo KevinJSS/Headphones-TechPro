@@ -54,7 +54,8 @@ body {
     background: linear-gradient(to right, var(--primary) 0%, var(--secondary) 100%);
     color: transparent;
     background-clip: text;
-    -webkit-background-clip: text; /* Prefix for some browser */
+    -webkit-background-clip: text;
+    /* Prefix for some browser */
 }
 
 h1,
@@ -127,7 +128,7 @@ img {
 
 @media (min-width: 768px) {
     .header {
-        padding: calc( var(--sectionSpacing) * 3 ) 0;
+        padding: calc(var(--sectionSpacing) * 3) 0;
     }
 
     .header-content {
@@ -182,8 +183,8 @@ img {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
-    } 
-    
+    }
+
     .feature {
         margin-bottom: 0;
     }
@@ -193,8 +194,80 @@ img {
     .product-features {
         gap: 4rem;
     }
+}
 
-    .feature:nth-child(1) span {
-        display: block;
+/* ABOUT TECHPRO */
+.about-techpro {
+    background-image: linear-gradient(to bottom, transparent 50%, var(--primary) 0%), url(../img/imagen-mujer.jpg);
+    background-position: center, top right;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%, 80rem;
+}
+
+@media (min-width: 768px) {
+    .about-techpro {
+        background-image: linear-gradient(to left, transparent 50%, var(--primary) 0%), url(../img/imagen-mujer.jpg);
+        background-position: right;
+        background-repeat: repeat, no-repeat;
+        background-size: 100%, 110rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-techpro {
+        background-size: 100%, 160rem;
+    }
+}
+
+.about-techpro-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 4rem;
+}
+
+@media (min-width: 768px) {
+    .about-techpro-grid {
+        grid-template-rows: unset;
+        row-gap: unset;
+
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 4rem;
+
+        padding: calc( var(--sectionSpacing ) * 1.2) 0;
+    }
+}
+
+.about-text {
+    grid-row: 2 / 3;
+    color: var(--light);
+    padding: var(--textSpacing) 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-bottom: calc(var(--sectionSpacing) * 1.5);
+}
+
+.about-text h2 {
+    font-size: 3.5rem;
+}
+
+.about-text p {
+    font-size: 2rem;
+    line-height: 2;
+}
+
+@media (min-width: 768px) {
+    .about-text {
+        padding-bottom: var(--textSpacing);
+    }
+
+    .about-text h2 {
+        font-size: 4rem;
+    }
+
+    .about-text p {
+        margin: var(--textSpacing) 0;
     }
 }

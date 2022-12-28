@@ -503,6 +503,14 @@ img {
 
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #0d5e98;
+    cursor: pointer;;
 }
 
 

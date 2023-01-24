@@ -1,7 +1,7 @@
 # Headphones-TechPRO
 Responsive web prototype for the TechPRO headphones 
 
-Website: https://headphones-techpro-kevjs.netlify.app/
+`Website Demo:` https://headphones-techpro-kevjs.netlify.app/
 
 #### Prototype preview
 ![Screenshot from 2022-12-27 23-28-16](https://user-images.githubusercontent.com/103754829/209762766-526d3ac1-7eec-4e7d-9d83-2daa1f0f1db9.png)

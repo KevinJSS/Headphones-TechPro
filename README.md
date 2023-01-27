@@ -1,4 +1,4 @@
-# Headphones-TechPRO
+# Headphones-TechPRO - [![Netlify Status](https://api.netlify.com/api/v1/badges/a3435824-9192-4d00-9e73-90645ca026bd/deploy-status)](https://app.netlify.com/sites/headphones-techpro-kevjs/deploys)
 Responsive web prototype for the TechPRO headphones 
 
 `Website Demo:` https://headphones-techpro-kevjs.netlify.app/

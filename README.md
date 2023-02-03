@@ -1,20 +1,66 @@
-# Headphones-TechPRO - ![Netlify Status](https://api.netlify.com/api/v1/badges/a3435824-9192-4d00-9e73-90645ca026bd/deploy-status)
-Responsive web prototype for the TechPRO headphones 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/103754829/216660111-13fe66d9-21ae-453c-a657-f853153bef80.png" width="500px" height="auto"/>
 
-`Website Demo:` https://headphones-techpro-kevjs.netlify.app/
+  <div>
+    <h1>HEADPHONE TECH-PRO</h1>
+  </div>
+</div>
 
-#### Prototype preview
-![Screenshot from 2022-12-27 23-28-16](https://user-images.githubusercontent.com/103754829/209762766-526d3ac1-7eec-4e7d-9d83-2daa1f0f1db9.png)
-![Screenshot from 2022-12-27 23-28-35](https://user-images.githubusercontent.com/103754829/209762820-6803bc58-41d0-4056-abf6-1f86f77829ae.png)
-![Screenshot from 2022-12-27 23-28-53](https://user-images.githubusercontent.com/103754829/209762824-dafbde9d-0b4e-46bd-871b-0231ee4a16c9.png)
-![Screenshot from 2022-12-27 23-29-58](https://user-images.githubusercontent.com/103754829/209762830-98bf35d3-356c-4474-a18a-a8916c79b8a4.png)
-![Screenshot from 2022-12-27 23-30-49](https://user-images.githubusercontent.com/103754829/209762831-45f7c238-f29c-4e8f-8cca-b3a9a7d8ac37.png)
+<p align="center">Responsive Frontend Prototype for the TechPRO Headphones. With a dynamic javascript loader for background images (avif, webp, jpg).</p>
 
-### Build With:
-* HTML
-* CSS
+<div align="center">
+  <h3><a href="https://headphones-techpro-kevjs.netlify.app/">➡️ LIVE DEMO</a></h3>
+  <hr/>
+</div> 
 
-### Developers:
+<img src="https://user-images.githubusercontent.com/103754829/216661056-09957959-63cd-49aa-b5b4-7d8147364653.png" alt="Project Preview"/>
+
+## BUILT WITH
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="100" height="100"/>
+  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="80" height="80"/>
+  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="100" height="100"/>
+</div>
+
+<br/>
+
+<div align="center">
+    <strong>HTML5</strong>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <strong>JavaScript</strong>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <strong>CSS3</strong>
+</div>
+
+<br/>
+
+## PREREQUISITES
+Before you begin, make sure you have met the following requirements:
+* <a href="https://git-scm.com/downloads" target="_blank">Git</a> must be installed on your operating system.
+
+## INSTALLATION
+To try <strong>Nucleus eWallet</strong>, follow these steps:
+
+Linux and macOS:
+```
+sudo git clone git@github.com:KevinJSS/Headphones-TechPro.git
+```
+
+Windows:
+```
+git clone git@github.com:KevinJSS/Headphones-TechPro.git
+```
+
+## DEVELOPERS
 * Kevin Alvarado
+* <a href="https://github.com/codigoconjuan">Juan Pablo de la Torre's</a> "CSS The Complete Guide" course.
 
-_Developed in 2022_
+<hr/>
+
+<div align="center">
+  <strong><i>Developed in 2022</i></strong>
+</div>

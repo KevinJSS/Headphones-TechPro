@@ -47,7 +47,7 @@ To try <strong>Headphones-TechPro</strong>, follow these steps:
 
 Linux and macOS:
 ```
-sudo git clone git@github.com:KevinJSS/Headphones-TechPro.git
+$ sudo git clone git@github.com:KevinJSS/Headphones-TechPro.git
 ```
 
 Windows:

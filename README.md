@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/103754829/216660111-13fe66d9-21ae-453c-a657-f853153bef80.png" width="500px" height="auto"/>
 
   <div>
-    <h1>HEADPHONE TECH-PRO</h1>
+    <h1>HEADPHONES TECH-PRO</h1>
   </div>
 </div>
 
